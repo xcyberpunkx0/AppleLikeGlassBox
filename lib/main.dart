@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:glassbox_app/glass_box.dart';
+import 'glass_box.dart';
 
 void main() {
   runApp(const MainApp());
@@ -29,7 +29,7 @@ class MainApp extends StatelessWidget {
               child: Text(
                 "Jujutsu Kaisen",
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.black,
                   fontSize: 20,
                   fontWeight: FontWeight.bold,
                 ),
